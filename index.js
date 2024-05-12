@@ -31,22 +31,22 @@ console.log("Average age in the array:", averageAge);
 // Use a loop to iterate through the array again and concatenate all the names together, separated by spaces.
 
 // An array of names provided to us 
-   // let names =['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
+   let names =['Sam', 'Tommy', 'Tim', 'Sally', 'Buck', 'Bob'];
 
-// // Calculate the average number of letters per name
-// let totalLetters = 0;
-// for (let i = 0; i < names.length; i++) {
-//     totalLetters += names[i].length;
-// }
-// let averageLetters = totalLetters / names.length;
-// console.log("Average number of letters per name:", averageLetters);
+// Calculate the average number of letters per name
+let totalLetters = 0;
+for (let i = 0; i < names.length; i++) {
+    totalLetters += names[i].length;
+}
+let averageLetters = totalLetters / names.length;
+console.log("Average number of letters per name:", averageLetters);
 
-// // Concatenate all names together, separated by spaces
-// let concatenatedNames = "";
-// for (let i = 0; i < names.length; i++) {
-//     concatenatedNames += names[i] + " ";
-// }
-// console.log("Concatenated names:", concatenatedNames);
+// Concatenate all names together, separated by spaces
+let concatenatedNames = "";
+for (let i = 0; i < names.length; i++) {
+    concatenatedNames += names[i] + " ";
+}
+console.log("Concatenated names:", concatenatedNames);
 
 //3. How do you access the last element of any array?
 
